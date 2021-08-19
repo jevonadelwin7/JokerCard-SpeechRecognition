@@ -1,0 +1,25 @@
+.pesan{
+    display:flex;
+}
+h1{
+    font-family: 'Arial Narrow Bold';
+}
+
+label{
+    font-family:monospace;
+}
+
+body{
+    background-color: aquamarine;
+}
+
+.container{
+    border-radius: 30px;
+    background-color: azure ;
+    padding-bottom: 30px;
+}
+
+.haha{
+    display: flex;
+}
+
