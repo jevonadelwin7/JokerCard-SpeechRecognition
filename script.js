@@ -1,6 +1,7 @@
 var speechRecognition = window.webkitSpeechRecognition
 
 var recognition = new speechRecognition()
+recognition.lang = 'en-US';
 
 var textbox = $("#textbox")
 var textbox1 = $("#textbox1")
