@@ -40,23 +40,25 @@ recognition.onresult = function(event){
 
     textbox.val(content);
 
-    if (transcript.toLowerCase() ==='1.')
+    if (transcript.toLowerCase() === '1.')
     {
     textbox1.val("You Find JOKER")
     document.getElementById("satu").src = "joker.png";
     document.getElementById("dua").src = "as.png";
     document.getElementById("tiga").src = "as.png";
-    document.getElementById("textbox1").className ="form-control text-light bg-success text-center";
     document.getElementById("start-btn").className ="btn btn-success btn-block mr-2 visually-hidden";
+    document.getElementById("textbox1").className ="form-control text-light bg-success text-center";
     }
-    else if(transcript.toLowerCase()==='2.'){
+    else if(transcript.toLowerCase()=== '2.')
+    {
     textbox1.val("He is not here..")
     document.getElementById("dua").src = "as.png";
     document.getElementById("textbox1").className ="form-control text-light bg-danger text-center";
     document.getElementById("start-btn").className ="btn btn-success btn-block mr-2 visually-hidden";
     }
 
-    else if(transcript.toLowerCase() === '3.'){
+    else if(transcript.toLowerCase() === '3.')
+    {
     textbox1.val("He is not here..")
     document.getElementById("tiga").src = "as.png";
     document.getElementById("textbox1").className ="form-control text-light bg-danger text-center";
