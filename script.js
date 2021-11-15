@@ -40,7 +40,7 @@ recognition.onresult = function(event){
 
     textbox.val(content);
 
-    if (transcript.toLowerCase() =='1.|1|one')
+    if (transcript.toLowerCase() ==='1.')
     {
     textbox1.val("You Find JOKER")
     document.getElementById("satu").src = "joker.png";
