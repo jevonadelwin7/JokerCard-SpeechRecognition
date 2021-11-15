@@ -21,6 +21,7 @@ recognition.onstart = function(){
 
 recognition.onspeechend = function(){
     instructions.text("No Activity")
+    document.getElementById("start-btn").className ="btn btn-success btn-block mr-2 visually-hidden";
     recognition.stop();
 }
 
